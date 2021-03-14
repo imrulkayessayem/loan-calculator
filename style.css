@@ -29,13 +29,11 @@ body {
 .container {
     margin: auto;
     width: 700px;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+    background: #fff;
 }
 
 .heading {
-    color: #fff;
+    color: #333;
     font-size: 3.5rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -46,25 +44,25 @@ body {
     height: 30px;
     margin-bottom: 25px;
     outline: none;
-    border: 1px solid rgba(255, 255, 255, 0.075);
+    border: 1px solid #1a238a10;
     background: none;
-    color: #fff;
+    color: #1a238a;
     padding: 1.75rem;
     font-size: 1rem;
     cursor: text;
 }
 
 .form-group input:focus {
-    border: 1px solid rgba(255, 255, 255, 0.835);
-    color: rgba(255, 255, 255, 0.835);
+    border: 1px solid #1a238a54;
+    color: #1a238a;
 }
 
 .form-group input::placeholder {
-    color: rgba(255, 255, 255, 0.664);
+    color: #1a238a55;
 }
 
 span {
-    color: #fff;
+    color: #1a238a;
 }
 
 .btn {
@@ -74,24 +72,25 @@ span {
     padding-top: .75rem;
     padding-bottom: .75rem;
     outline: none;
-    border: 1px solid rgba(255, 255, 255, 0.075);
+    border: 1px solid #1a238a25;
     transition: all .3s ease-in;
     background: none;
-    color: #fff;
+    color: #333;
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
 
 .btn:hover {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
+  color: #fff;
 }
 
 /* results */
 
 #results h5 {
-    color: #fff;
+    color: #333;
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
@@ -154,11 +153,12 @@ span {
   /* DIV */
 
   div.alert {
-      color: #fff;
+      color: red;
       margin-top: 1rem;
       padding: 2rem;
       text-align: center;
       font-size: 1.20rem;
+      font-weight: bolder;
   }
 
   @media (max-width: 520px) {
